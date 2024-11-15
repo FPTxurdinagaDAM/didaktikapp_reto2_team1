@@ -2,9 +2,9 @@ name: "CodeQL Advanced for Android Kotlin"
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "test-codeql-workflow" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "test-codeql-workflow" ]
   schedule:
     - cron: '00 08 * * *'
 
